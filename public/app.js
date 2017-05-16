@@ -12,11 +12,11 @@ var initialize = function() {
 
   var ausButton = document.getElementById("aus-button");
 
-  var handleButtonClick = function(){
+  var clickAustraliaButton = function(){
     mainMap.googleMap.setCenter({lat: -25.27, lng: 133.77});
     mainMap.googleMap.setZoom(4);
   }
-  ausButton.addEventListener('click', handleButtonClick);
+  ausButton.addEventListener('click', clickAustraliaButton);
 
 };
 
